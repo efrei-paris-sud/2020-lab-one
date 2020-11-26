@@ -80,8 +80,45 @@ Before continuing:
 |Ex.1| Test your LED by connecting the orange wire to the red bus (VCC). Is it work? Document it in your GitHub repository using [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
 |--|--|
 
-## Step 3: Program a Micro-Controller
-In this LAB, we will use Arduino IDE. However you can use any software as you want.   [Download Arduino IDE](https://www.arduino.cc/en/Main/Software)
+## Step 3: Upload a program to the Arduino
+In this LAB, we will use Arduino IDE. However, you can use any software as you want.   [Download Arduino IDE](https://www.arduino.cc/en/Main/Software)
 [How to install Arduino](Install%20Arduino.pdf?raw=true)
 [Simple Program: LED Blink.ino](led_blink.ino)
 If you need help on arduino language. [Arduino Language Reference](http://wiring.org.co/reference/)
+
+## Step 4: Details
+Each Arduino program, contains two parts. Setup and loop
+> The `setup()`function is called when a program starts. Use it to initialize variables, pin modes, start using libraries, etc. The `setup()` function will only run once, after each powerup or reset of the Arduino board. 
+
+>After creating a `setup()` function, which initializes and sets the initial values, the `loop()` function does precisely what its name suggests, and loops consecutively, allowing your program to change and respond. Use it to actively control the Arduino board.
+
+> A digital value is Zero or One. i.e., An LED is on or off or a button is pressed or not. 
+To write a digital value we can use `digitalWrite (port_number, LOW or HIGH)`. Be sure that you have setup the  `port_number` as `OUTPUT` by using `pinMode(port_number, OUTPUT);` in the `setup` function.
+
+|Ex.2| Turn on and off an LED in port 4. Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|--|--|
+
+## Step 5: Read a Digital Value
+[Please do the lesson 6](Starter%20Kit%20for%20Arduino%28user%20manual%29.pdf?raw=true)
+
+|Ex.3| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|--|--|
+## Step 6: Read an Analog Value
+Please do the lesson 4 in the same file.
+|Ex.4| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|--|--|
+
+## Step 7: Write an Analog Value
+Please do the lesson 5 in the same file.
+|Ex.5| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|--|--|
+
+## Step 8: Fun: RGB LED
+Please do the lesson 10 in the same file.
+|Ex.6| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|--|--|
+
+## Step 9: Buzzer
+Please do the lesson 9 in the same file.
+|Ex.7| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|--|--|
