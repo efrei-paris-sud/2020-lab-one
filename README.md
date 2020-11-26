@@ -40,7 +40,7 @@ In this lab we learn:
 ## Step 1: Turning on/off an LED
 In this step, we work on the simplest part of the project. 
 A LED has two pins. Cathode (+) and Anode (-). To turn on a LED, we need to put it into an Electronic circuit.
-![LED](LED+bb.png?raw=true)
+![LED](LED_bb.png?raw=true)
 ### Breadboard
 > A breadboard is a construction base for prototyping of electronics. Because the solderless breadboard does not require soldering, it is reusable. This makes it easy to use for creating temporary prototypes and experimenting with circuit design.
 > 
