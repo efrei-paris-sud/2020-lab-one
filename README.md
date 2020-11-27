@@ -109,6 +109,12 @@ The `buttonState` value is either `HIGH` or `LOW` i.e., You can use `if (buttonS
 |--|--|
 ## Step 6: Read an Analog Value
 Please do the lesson 4 in the same file.
+
+
+> Hint: You have to use : to read the analog signal you can use `value=analogRead(A0)` 
+The `value`  is something between 0 and 1024. 
+If the input voltage is 5V the `value` will be 1024, if it is 2.5V it `value` will be 512 and if it is 0V the `value` will be 0.
+
 |Ex.4| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
 |--|--|
 
