@@ -119,7 +119,14 @@ If the input voltage is 5V the `value` will be 1024, if it is 2.5V it `value` wi
 |--|--|
 
 ## Step 7: Write an Analog Value
-Please do the lesson 5 in the same file.
+Please watch this video
+[![PWM](https://img.youtube.com/vi/yhpk4V9w-ZM/0.jpg)](https://www.youtube.com/watch?v=yhpk4V9w-ZM)
+
+Now it is time to do the lesson 5 in the same file.
+> you can use `analogWrite(pin, value)`. The `value` is the duty cycle: between 0 (always off) and 255 (always on).
+
+
+
 |Ex.5| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
 |--|--|
 
