@@ -130,12 +130,17 @@ Now it is time to do the lesson 5 in the same file.
 |Ex.5| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
 |--|--|
 
-## Step 8: Fun: RGB LED
-Please do the lesson 10 in the same file.
+
+## Step 8: Buzzer
+Please do the lesson 9 in the same file.
+> to generates a 400Hz tone in output pin 8 with 2000ms of duration you can use  `tone(8, 400, 2000);` 
+
 |Ex.6| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
 |--|--|
 
-## Step 9: Buzzer
-Please do the lesson 9 in the same file.
-|Ex.7| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+## Step 9: Fun: RGB LED
+Please do the lesson 10 in the same file.
+A RGB LED can produce any color as you want. Like normal colors we have 3 primitive color: Red,Green and Blue. by controlling the amount of each we can have different colors.
+Please write a function `setColor(int red,int green, int blue)` and  do `analogWrite(color_pin,color_value)` for each color (i.e., for red one `analogWrite(red_pin,red)`) and then call setColor(r,g,b) in your loop.  
+|Ex.7| prepare a program to have different colors (at least 5) with a delay of 1000 ms . Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
 |--|--|
