@@ -101,6 +101,10 @@ To write a digital value we can use `digitalWrite (port_number, LOW or HIGH)`. B
 ## Step 5: Read a Digital Value
 [Please do the lesson 6](Starter%20Kit%20for%20Arduino%28user%20manual%29.pdf?raw=true)
 
+> Hint: You have to use : `  pinMode(buttonPin, INPUT);` in setup and to read the digital signal you can use `buttonState = digitalRead(buttonPin);` 
+The `buttonState` value is either `HIGH` or `LOW` i.e., You can use `if (buttonState == HIGH){....}else{....}`
+
+
 |Ex.3| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
 |--|--|
 ## Step 6: Read an Analog Value
