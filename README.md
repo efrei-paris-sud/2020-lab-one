@@ -77,7 +77,7 @@ Now, It is necessary to model the work.
 ![Schema-LED](LED_micro.png?raw=true)
 
 Before continuing:
-|Ex.1| Test your LED by connecting the orange wire to the red bus (VCC). Is it work? Document it in your GitHub repository using [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|Ex.1| Test your LED by connecting the orange wire to the red bus (VCC). Is it work? Document it in your GitHub repository using [this format](https://github.com/efrei-paris-sud/2020-sample-project/tree/master/lab/1). |
 |--|--|
 
 ## Step 3: Upload a program to the Arduino
@@ -95,7 +95,7 @@ Each Arduino program, contains two parts. Setup and loop
 > A digital value is Zero or One. i.e., An LED is on or off or a button is pressed or not. 
 To write a digital value we can use `digitalWrite (port_number, LOW or HIGH)`. Be sure that you have setup the  `port_number` as `OUTPUT` by using `pinMode(port_number, OUTPUT);` in the `setup` function.
 
-|Ex.2| Turn on and off an LED in port 4. Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|Ex.2| Turn on and off an LED in port 4. Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2020-sample-project/tree/master/lab/1). |
 |--|--|
 
 ## Step 5: Read a Digital Value
@@ -105,7 +105,7 @@ To write a digital value we can use `digitalWrite (port_number, LOW or HIGH)`. B
 The `buttonState` value is either `HIGH` or `LOW` i.e., You can use `if (buttonState == HIGH){....}else{....}`
 
 
-|Ex.3| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|Ex.3| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2020-sample-project/tree/master/lab/1). |
 |--|--|
 ## Step 6: Read an Analog Value
 Please do the lesson 4 in the same file.
@@ -115,7 +115,7 @@ Please do the lesson 4 in the same file.
 The `value`  is something between 0 and 1024. 
 If the input voltage is 5V the `value` will be 1024, if it is 2.5V it `value` will be 512 and if it is 0V the `value` will be 0.
 
-|Ex.4| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|Ex.4| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2020-sample-project/tree/master/lab/1). |
 |--|--|
 
 ## Step 7: Write an Analog Value
@@ -127,7 +127,7 @@ Now it is time to do the lesson 5 in the same file.
 
 
 
-|Ex.5| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|Ex.5| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2020-sample-project/tree/master/lab/1). |
 |--|--|
 
 
@@ -135,12 +135,12 @@ Now it is time to do the lesson 5 in the same file.
 Please do the lesson 9 in the same file.
 > to generates a 400Hz tone in output pin 8 with 2000ms of duration you can use  `tone(8, 400, 2000);` 
 
-|Ex.6| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|Ex.6| Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2020-sample-project/tree/master/lab/1). |
 |--|--|
 
 ## Step 9: Fun: RGB LED
 Please do the lesson 10 in the same file.
 A RGB LED can produce any color as you want. Like normal colors we have 3 primitive color: Red,Green and Blue. by controlling the amount of each we can have different colors.
 Please write a function `setColor(int red,int green, int blue)` and  do `analogWrite(color_pin,color_value)` for each color (i.e., for red one `analogWrite(red_pin,red)`) and then call setColor(r,g,b) in your loop.  
-|Ex.7| prepare a program to have different colors (at least 5) with a delay of 1000 ms . Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2019-sample-project/tree/master/lab/1). |
+|Ex.7| prepare a program to have different colors (at least 5) with a delay of 1000 ms . Is it work? Please don't forget to document it with [this format](https://github.com/efrei-paris-sud/2020-sample-project/tree/master/lab/1). |
 |--|--|
